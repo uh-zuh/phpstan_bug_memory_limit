@@ -2,3 +2,7 @@ parameters:
     level: 7
     paths:
         - .
+    parallel:
+        jobSize: 1
+        maximumNumberOfProcesses: 1
+        minimumNumberOfJobsPerProcess: 1
